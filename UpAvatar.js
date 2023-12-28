@@ -49,6 +49,9 @@ export default class UpAvatar extends Avatar {
       }
     }
   }
+  /**
+   * Carrega a imagem armazenada no Local Storage
+   */
   static loadStoredAvatar() {
     const storedAvatar = localStorage.getItem("AvatarImg");
     if (storedAvatar) {
